@@ -4,13 +4,13 @@
 #1. clone repository
 $ git clone https://github.com/luthfi-satria/simplechat-fe.git 
 
-#3 go to directory
+#2 go to directory
 $ cd simplechat-fe
 
-#4 install dependencies
+#3 install dependencies
 $ npm install
 
-#6 run application
+#4 run application
 $ npm run dev
 ```
 
