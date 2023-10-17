@@ -11,8 +11,8 @@ services:
     ports:
       - '5173:5173'
     networks:
-      - mylocalnetwork
+      - livechat
 
 networks: 
-    mylocalnetwork:
+    livechat:
         driver: bridge
