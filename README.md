@@ -1,8 +1,19 @@
-# React + Vite
+## Installation locally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```bash
+#1. clone repository
+$ git clone https://github.com/luthfi-satria/simplechat-fe.git 
 
-Currently, two official plugins are available:
+#3 go to directory
+$ cd simplechat-fe
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#4 install dependencies
+$ npm install
+
+#6 run application
+$ npm run dev
+```
+
+## Disclaimer
+1. Make sure chat server <b>simplechat-be</b> was run
+2. Before run application, please open .env file then change VITE_WEBSOCKETURL and VITE_APIURL
